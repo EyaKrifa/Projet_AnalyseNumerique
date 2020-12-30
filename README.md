@@ -26,7 +26,7 @@ Le langage Python 3 a été utilisé pour coder les différentes méthodes. Les 
 Le projet est constitué des fichiers suivants:
 * _**"IntegrationProject.py"**_ : contient le code source du projet.
 * _**"Project.gif"**_  : contient un démo sur le projet.
-* _**"Rapport.pdf"**_  : contient le rapport détaillé sur le projet et sur les parties théroqies des quatres méthodes d'intégration.
+* _**"Rapport.pdf"**_  : Vous pouvez consulter le rapport détaillé sur le projet et sur les parties théroqies des quatres méthodes d'intégration.
 
 ### Documentation sur IntegrationProject.py:
 Ce fichier contient 5 classes (class Rectangle,class Trapezoidal,class Simpson,class Milieu,class mclass) 
@@ -52,8 +52,10 @@ L'interface du projet contient trois cadres (frames) pour la composition de la f
  * **frame1:** dédié à la saisie des champs telle que la fonction f à intégrer , les valeurs du bornes (a et b) et le nombre de subdivisions (n) et aux bouttons _**Plot**_ , _**PlotAll**_ , _**Reset**_ et _**Quit**_
  * **frame2:** dédié à l'affichage de(s) graphe(s)
  * **frame3:** dédié à l'affichage des valeurs approchées d'intégrale et l'erreur
- 
-  
+ #### Méthodes de la classe mclass:
+* Méthode init : pour l'initialisation de la fenêtre , des frames , les labels, des boxes et des bouttons 
+* Méthode plot : pour l'affichage d'une seule graphe.En effet,le Combobox inséré dans l'interface vous permet de choisir la méthode d'intégration désiré , il suffit de choisir la méthode , le graphe va être affiché , ainsi la valeur approchée de l'intégral et l'erreur
+* Méthode plot :
 
 
 
