@@ -35,8 +35,8 @@ Cette classe permet la modélisation d’intégration par la méthodes des Recta
 #### Fonctionnement de la classe Rectangle
 * Le constructeur de la classe se fait avec la fonction à intégrer, les valeurs des bornes d’intégrale et le nombre de subdivision en argument.
 * Avant toutes autres étapes d’affichage, il faut calculer dans la classe rectangle la valeur d’intégrale. Pour cela, il y a la méthodes _**integrate**_. Cette dernière va être appelé dans la méthode _**Graph**_ qui est la méthode "de base" pour l’affichage.
-*	_**La méthode integrate**_ fait le calcul de la valeur d’intégrale  
-*  _**La méthode  Graph **_ trace la fonction à intégrer sur les points donnés en argument et retourne l'erreur et la valeur approchée d’intégrale de cette méthode
+* _**La méthode integrate**_ fait le calcul de la valeur d’intégrale  
+* _**La méthode  Graph**_ trace la fonction à intégrer sur les points donnés en argument et retourne l'erreur et la valeur approchée d’intégrale de cette méthode
 
 
 
