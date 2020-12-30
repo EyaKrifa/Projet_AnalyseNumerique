@@ -18,3 +18,4 @@ Les méthodes d’intégrations étudiées dans ce projet :
 
 ### Voici un petit démo sur la réalisation de l’interface graphique :
 
+<img src="/TP_AnalyseNumerique/TP3_MiniProjet_VersionFinale/gif1.gif" width="750" align="center">
