@@ -32,7 +32,11 @@ Le projet est constitué des fichiers suivants:
 Ce fichier contient 5 classes (class Rectangle,class Trapezoidal,class Simpson,class Milieu,class mclass) 
 #### Documentation de la classe Rectangle
 Cette classe permet la modélisation d’intégration par la méthodes des Rectangles Gauches.
-#### **Documentation de la classe Rectangle**
+#### Fonctionnement de la classe Rectangle
+*Le constructeur de la classe se fait avec la fonction à intégrer, les valeurs des bornes d’intégrale et le nombre de subdivision en argument.
+*Avant toutes autres étapes d’affichage, il faut calculer dans la classe rectangle la valeur d’intégrale. Pour cela, il y a la méthodes <mark>integrate</mark>. Cette dernière va être appelé dans la méthode <mark>Graph</mark> qui est la méthode "de base" pour l’affichage.
+*	<mark>La méthode integrate</mark> fait le calcul de la valeur d’intégrale  
+* <mark>La méthode  Graph </mark> trace la fonction à intégrer sur les points donnés en argument et retourne l'erreur et la valeur approchée d’intégrale de cette méthode
 
 
 
