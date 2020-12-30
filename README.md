@@ -24,6 +24,22 @@ Les méthodes d’intégrations étudiées dans ce projet :
 Le langage Python 3 a été utilisé pour coder les différentes méthodes. Les bibliothèques utilisées sont principalement numpy et matplotlib et certaines parties du code nécessitent pylab.
 
 Le projet est constitué des fichiers suivants:
+* _**"IntegrationProject.py"**_ : contient le code source du projet.
+* _**"Project.gif"**_  : contient un démo sur le projet.
+* _**"Rapport.pdf"**_  : contient le rapport détaillé sur le projet.
+
+### Documentation sur IntegrationProject.py:
+Ce fichier contient 5 classes (class Rectangle,class Trapezoidal,class Simpson,class Milieu,class mclass) 
+#### Documentation de la classe Rectangle
+Cette classe permet la modélisation d’intégration par la méthodes des Rectangles Gauches.
+#### **Documentation de la classe Rectangle**
+
+
+
+
+
+
+
 
 
 
