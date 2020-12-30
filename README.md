@@ -19,3 +19,7 @@ Les méthodes d’intégrations étudiées dans ce projet :
 ### Voici un petit démo sur la réalisation de l’interface graphique :
 
 ![](gif1.gif)
+Upload from local:
+![Alt text](name-of-gif-file.gif) / ![](name-of-gif-file.gif)
+
+
