@@ -16,11 +16,15 @@ Les méthodes d’intégrations étudiées dans ce projet :
 
 4. Méthode de Simpson
 
-### Voici un démo sur la réalisation de l’interface graphique :
+#### Voici un démo sur la réalisation de l’interface graphique :
 
 ![](gif1.gif)
 
 ### Développé par :
 Le langage Python 3 a été utilisé pour coder les différentes méthodes. Les bibliothèques utilisées sont principalement numpy et matplotlib et certaines parties du code nécessitent pylab.
+
+Le projet est constitué des fichiers suivants:
+
+
 
 
