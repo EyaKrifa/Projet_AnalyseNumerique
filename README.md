@@ -26,7 +26,7 @@ Le langage Python 3 a été utilisé pour coder les différentes méthodes. Les 
 Le projet est constitué des fichiers suivants:
 * _**"IntegrationProject.py"**_ : contient le code source du projet.
 * _**"Project.gif"**_  : contient un démo sur le projet.
-* _**"Rapport.pdf"**_  : contient le rapport détaillé sur le projet.
+* _**"Rapport.pdf"**_  : contient le rapport détaillé sur le projet et sur les parties théroqies des quatres méthodes d'intégration.
 
 ### Documentation sur IntegrationProject.py:
 Ce fichier contient 5 classes (class Rectangle,class Trapezoidal,class Simpson,class Milieu,class mclass) 
@@ -36,7 +36,25 @@ Cette classe permet la modélisation d’intégration par la méthodes des Recta
 * Le constructeur de la classe se fait avec la fonction à intégrer, les valeurs des bornes d’intégrale et le nombre de subdivision en argument.
 * Avant toutes autres étapes d’affichage, il faut calculer dans la classe rectangle la valeur d’intégrale. Pour cela, il y a la méthodes _**integrate**_. Cette dernière va être appelé dans la méthode _**Graph**_ qui est la méthode "de base" pour l’affichage.
 * _**La méthode integrate**_ fait le calcul de la valeur d’intégrale  
-* _**La méthode  Graph**_ trace la fonction à intégrer sur les points donnés en argument et retourne l'erreur et la valeur approchée d’intégrale de cette méthode
+* _**La méthode  Graph**_ trace la fonction à intégrer sur les points donnés en argument et retourne l'erreur et la valeur approchée d’intégrale de cette méthode.
+#### Déclaration des attributs :Fonctionnement de la classe Rectangle
+* f : la fonction à intégrer, déterminée par le constructeur et modifiable
+* a : Borne inférieur d’intégrale (modifiable )
+* b : Borne supérieur d’intégrale ( modifiable)
+* n : nombre de subdivisions ( modifiable)
+####Remarques:
+**Ces méthodes sont pareils pour class Trapezoidal,class Simpson et class Milieu *
+
+#### Documentation de la classe mclass :
+C'est la classe qui initialise tout les éléments de la fenêtre
+#### Fonctionnement de la classe mclass:
+L'interface du projet contient trois cadres (frames) pour la composition de la fenêtre:
+ * **frame1:** dédié à la saisie des champs telle que la fonction f à intégrer , les valeurs du bornes (a et b) et le nombre de subdivisions (n) et aux bouttons _**Plot**_ , _**PlotAll**_ , _**Reset**_ et _**Quit**_
+ * **frame2:** dédié à l'affichage de(s) graphe(s)
+ * **frame3:** dédié à l'affichage des valeurs approchées d'intégrale et l'erreur
+ 
+  
+
 
 
 
