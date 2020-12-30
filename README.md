@@ -16,5 +16,5 @@ Les méthodes d’intégrations étudiées dans ce projet :
 
 4. Méthode de Simpson
 
-#### Voici un petit démo sur la réalisation de l’interface graphique :
+### Voici un petit démo sur la réalisation de l’interface graphique :
 
