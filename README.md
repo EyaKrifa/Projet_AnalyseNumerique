@@ -1,5 +1,5 @@
-# Projet_AnalyseNumerique
-# Intégration Numérique :
+# <center Projet_AnalyseNumerique</center>
+## Intégration Numérique :
 ## Table des matières :
 
 * À propos du projet:
