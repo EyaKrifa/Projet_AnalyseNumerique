@@ -111,9 +111,12 @@ Et à faire l'approximation :
 ### 4. Méthode de Simpson:
 Elle revient à approcher localement la fonction à intégrer sur des intervalles adjacents par une parabole.
 La formule de Simpson peut être obtenue en remplaçant f sur [a,b] par son polynôme d'interpolation composite de degré 2 aux nœuds xo = a, x-1 = (a + b)/2 et x2= b 
-On écrit la formule : 
+On écrit la formule :
+
 ![alt text](images/simp1.png)
+
 * Cette méthode est illustrée en bas :
+
 ![alt text](images/simp2.jpg)
 
 
