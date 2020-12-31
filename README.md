@@ -79,7 +79,7 @@ L'interface du projet contient trois cadres (frames) pour la composition de la f
 Le fichier peut également être exécuté sous forme de script :
 
 ## Méthodes d'intégration Numèriques :
-1. Méthode de Rectangle:
+### 1. Méthode de Rectangle
 C'est l'application la plus simple de la définition de l'intégrale de Riemann.On découpe l'intervalle [a ; b] en n intervalles équivalents de largeur h.On écrit  : ![alt text](images/Rect1.png)
 Avec  h=(b-a)/n
 * Géométriquement, cela signifie qu'on approche l'intégrale de f par l'aire des rectangles hachurés en vert 
