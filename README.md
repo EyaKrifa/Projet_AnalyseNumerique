@@ -81,9 +81,6 @@ L'interface du projet contient trois cadres (frames) pour la composition de la f
 * Méthode plot : pour l'affichage d'une seule graphe.En effet,le Combobox inséré dans l'interface vous permet de choisir la méthode d'intégration désiré , il suffit de choisir la méthode , le graphe va être affiché , ainsi la valeur approchée de l'intégral et l'erreur.
 * Méthode plotall: C'est le même principe de la méthode plot sauf celle-ci permet l'affichage des quatre ghraphes de chaque méthode simultanément ainsi leurs valeurs approchées  et leurs erreurs.
 
-## Execution :
-Le fichier peut également être exécuté sous forme de script :
-
 ## Méthodes d'intégration Numèriques :
 ### 1. Méthode de Rectangle
 C'est l'application la plus simple de la définition de l'intégrale de Riemann.On découpe l'intervalle [a ; b] en n intervalles équivalents de largeur h.On écrit  : ![alt text](images/Rect1.png)
