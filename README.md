@@ -9,6 +9,12 @@
   * [Documentation de la classe Rectangle](#sub-heading-1)
   * [Documentation de la classe mclass](#sub-heading-1)
   * [Méthodes de la classe mclass:](#sub-heading-1)
+- [Méthodes d'intégration Numèriques](#heading-1)
+  * [Méthode de Rectangle](#sub-heading-1)
+  * [Méthode des Trapézes](#sub-heading-1)
+  * [Méthode des Points Milieux](#sub-heading-1)
+   * [Méthode de Simpson](#sub-heading-1)
+
 
 
 
@@ -102,7 +108,11 @@ Et à faire l'approximation :
 * Cette méthode qui, pour des raisons évidentes s'appelle la méthode du point milieu, est illustrée en bas :
 ![alt text](images/ptMilieu3.PNG)
 
-### 4. Méthode de Simpson
+### 4. Méthode de Simpson:
+Elle revient à approcher localement la fonction à intégrer sur des intervalles adjacents par une parabole.
+La formule de Simpson peut être obtenue en remplaçant f sur [a,b] par son polynôme d'interpolation composite de degré 2 aux nœuds xo = a, x-1 = (a + b)/2 et x2= b 
+On écrit la formule : 
+![alt text](images/simp1.png)
 
 
 
