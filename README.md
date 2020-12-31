@@ -85,16 +85,15 @@ Avec  h=(b-a)/n
 * Géométriquement, cela signifie qu'on approche l'intégrale de f par l'aire des rectangles hachurés en vert 
 ![alt text](images/Rect3.png)
 
-2. Méthode des Trapézes:
+### 2. Méthode des Trapézes:
 La méthode du trapèze est obtenue en remplaçant f par son polynôme d'interpolation de Lagrange de degré 1 aux nœuds xo = a et x1 = b, c'est-à dire 1(f) = (f(a) + f(b))/2.
 On réalise pour chaque intervalle de largeur h une approximation linéaire de la fonction à intégrer.On a alors : ![alt text](images/Trap1.png) 
 Avec  h=(b-a)/n
 * Géométriquement, cela signifie qu'on approche l'intégrale de f par l'aire des Trapèzes en rouge. 
 ![alt text](images/Trap3.png)
 
+### 3. Méthode des Points Milieux : 
 
-3. Méthode de Simpson
-###  Méthode des Points Milieux : 
 En analyse numérique, la méthode du point médian est une méthode permettant de réaliser le calcul numérique d'une intégrale.
 Cette méthode consiste à choisir le point milieu de chacun des sous-intervalles : ![alt text](images/ptMilieu.PNG) 
 Et à faire l'approximation : 
@@ -102,6 +101,8 @@ Et à faire l'approximation :
 ![alt text](images/ptMilieu2.PNG)
 * Cette méthode qui, pour des raisons évidentes s'appelle la méthode du point milieu, est illustrée en bas :
 ![alt text](images/ptMilieu3.PNG)
+
+### 4. Méthode de Simpson
 
 
 
