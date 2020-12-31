@@ -114,7 +114,7 @@ La formule de Simpson peut être obtenue en remplaçant f sur [a,b] par son poly
 On écrit la formule : 
 ![alt text](images/simp1.png)
 * Cette méthode est illustrée en bas :
-![alt text](images/simp2.png)
+![alt text](images/simp2.jpg)
 
 
 
