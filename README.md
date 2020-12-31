@@ -82,8 +82,8 @@ Le fichier peut également être exécuté sous forme de script :
 1. Méthode de Rectangle:
 C'est l'application la plus simple de la définition de l'intégrale de Riemann.On découpe l'intervalle [a ; b] en n intervalles équivalents de largeur h.On écrit  : ![alt text](images/Rect1.png)
 Avec  h=(b-a)/n
-* Géométriquement, cela signifie qu'on approche l'intégrale de f par l'aire des rectangles hachurés en vert !
-[alt text](images/Rect3.png)
+* Géométriquement, cela signifie qu'on approche l'intégrale de f par l'aire des rectangles hachurés en vert 
+![alt text](images/Rect3.png)
 
 2. Méthode des Trapézes:
 La méthode du trapèze est obtenue en remplaçant f par son polynôme d'interpolation de Lagrange de degré 1 aux nœuds xo = a et x1 = b, c'est-à dire 1(f) = (f(a) + f(b))/2.
