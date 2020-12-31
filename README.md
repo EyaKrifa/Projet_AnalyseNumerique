@@ -42,8 +42,8 @@ Cette classe permet la modélisation d’intégration par la méthodes des Recta
 * a : Borne inférieur d’intégrale (modifiable )
 * b : Borne supérieur d’intégrale ( modifiable)
 * n : nombre de subdivisions ( modifiable)
-####Remarques:
-**Ces méthodes sont pareils pour class Trapezoidal,class Simpson et class Milieu *
+#### Remarques:
+**Ces méthodes sont pareils pour class Trapezoidal,class Simpson et class Milieu **
 
 #### Documentation de la classe mclass :
 C'est la classe qui initialise tout les éléments de la fenêtre
