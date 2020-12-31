@@ -4,10 +4,10 @@
 
 - [À propos du projet:](#heading)
   * [Utilité](#sub-heading)
-  * [Outil de développement]
+  * [Outil de développement](#sub-heading)
 - [Documentation sur IntegrationProject.py:](#heading-1)
-  * [Documentation de la classe Rectangle]
-  * [Documentation de la classe mclass]
+  * [Documentation de la classe Rectangle](#sub-heading-1)
+  * [Documentation de la classe mclass](#sub-heading-1)
   * [Méthodes de la classe mclass:](#sub-heading-1)
 
 
