@@ -80,19 +80,26 @@ Le fichier peut également être exécuté sous forme de script :
 
 ## Méthodes d'intégration Numèriques :
 1. Méthode de Rectangle:
-C'est l'application la plus simple de la définition de l'intégrale de Riemann.On découpe l'intervalle [a ; b] en n intervalles équivalents de largeur h.On écrit  : ![alt text](images/Rect1.png) Avec  h=(b-a)/n
-* Géométriquement, cela signifie qu'on approche l'intégrale de f par l'aire des rectangles hachurés en vert ![alt text](images/Rect3.png)
+C'est l'application la plus simple de la définition de l'intégrale de Riemann.On découpe l'intervalle [a ; b] en n intervalles équivalents de largeur h.On écrit  : ![alt text](images/Rect1.png)
+Avec  h=(b-a)/n
+* Géométriquement, cela signifie qu'on approche l'intégrale de f par l'aire des rectangles hachurés en vert !
+[alt text](images/Rect3.png)
 
 2. Méthode des Trapézes:
 La méthode du trapèze est obtenue en remplaçant f par son polynôme d'interpolation de Lagrange de degré 1 aux nœuds xo = a et x1 = b, c'est-à dire 1(f) = (f(a) + f(b))/2.
-On réalise pour chaque intervalle de largeur h une approximation linéaire de la fonction à intégrer.On a alors : ![alt text](images/Trap1.png) Avec  h=(b-a)/n
-* Géométriquement, cela signifie qu'on approche l'intégrale de f par l'aire des Trapèzes en rouge. ![alt text](images/Trap3.png)
+On réalise pour chaque intervalle de largeur h une approximation linéaire de la fonction à intégrer.On a alors : ![alt text](images/Trap1.png) 
+Avec  h=(b-a)/n
+* Géométriquement, cela signifie qu'on approche l'intégrale de f par l'aire des Trapèzes en rouge. 
+![alt text](images/Trap3.png)
 
 
 3. Méthode de Simpson
 ###  Méthode des Points Milieux : 
 En analyse numérique, la méthode du point médian est une méthode permettant de réaliser le calcul numérique d'une intégrale.
-Cette méthode consiste à choisir le point milieu de chacun des sous-intervalles : ![alt text](images/ptMilieu.png) Et à faire l'approximation : ![alt text](images/ptMilieu1.png) Ce qui conduit à la formule : ![alt text](images/ptMilieu2.png)
+Cette méthode consiste à choisir le point milieu de chacun des sous-intervalles : ![alt text](images/ptMilieu.png) 
+Et à faire l'approximation : 
+![alt text](images/ptMilieu1.png) Ce qui conduit à la formule :
+![alt text](images/ptMilieu2.png)
 * Cette méthode qui, pour des raisons évidentes s'appelle la méthode du point milieu, est illustrée en bas :
 ![alt text](images/ptMilieu3.png)
 
