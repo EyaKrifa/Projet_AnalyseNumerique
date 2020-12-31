@@ -96,12 +96,12 @@ Avec  h=(b-a)/n
 3. Méthode de Simpson
 ###  Méthode des Points Milieux : 
 En analyse numérique, la méthode du point médian est une méthode permettant de réaliser le calcul numérique d'une intégrale.
-Cette méthode consiste à choisir le point milieu de chacun des sous-intervalles : ![alt text](images/ptMilieu.png) 
+Cette méthode consiste à choisir le point milieu de chacun des sous-intervalles : ![alt text](images/ptMilieu.PNG) 
 Et à faire l'approximation : 
-![alt text](images/ptMilieu1.png) Ce qui conduit à la formule :
-![alt text](images/ptMilieu2.png)
+![alt text](images/ptMilieu1.PNG) Ce qui conduit à la formule :
+![alt text](images/ptMilieu2.PNG)
 * Cette méthode qui, pour des raisons évidentes s'appelle la méthode du point milieu, est illustrée en bas :
-![alt text](images/ptMilieu3.png)
+![alt text](images/ptMilieu3.PNG)
 
 
 
