@@ -1,5 +1,11 @@
 # Projet_AnalyseNumerique
 ## Intégration Numérique :
+## table des matières :
+* <span style="color:#FF5733 ">À propos du projet:
+ * Outil de développement:
+
+
+
 ### À propos du projet:
 Ce petit projet consiste à modéliser quatres méthodes d'intégration numériques avec une interface graphique réalisé à l’aide du « Tkinter ». 
 Cette dernière vous permet de saisir la fonction, puis choisir les bornes d'intégrale (a et b) et fixer le nombre de subdivisons. Finalement, appuyer:
@@ -20,7 +26,7 @@ Les méthodes d’intégrations étudiées dans ce projet :
 
 ![](gif1.gif)
 
-### Développé par :
+### Outil de développement:
 Le langage Python 3 a été utilisé pour coder les différentes méthodes. Les bibliothèques utilisées sont principalement numpy et matplotlib et certaines parties du code nécessitent pylab.
 
 Le projet est constitué des fichiers suivants:
@@ -43,7 +49,7 @@ Cette classe permet la modélisation d’intégration par la méthodes des Recta
 * b : Borne supérieur d’intégrale ( modifiable)
 * n : nombre de subdivisions ( modifiable)
 #### Remarques:
-**Ces méthodes sont pareils pour class Trapezoidal,class Simpson et class Milieu**
+Ces méthodes sont pareils pour class Trapezoidal,class Simpson et class Milieu
 
 #### Documentation de la classe mclass :
 C'est la classe qui initialise tout les éléments de la fenêtre
