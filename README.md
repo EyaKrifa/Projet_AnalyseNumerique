@@ -3,6 +3,7 @@
 ## Table des matières :
 
 * À propos du projet:
+     * Utilité :
      * Outil de développement
 * Documentation sur IntegrationProject.py:
      * Documentation de la classe Rectangle
@@ -31,6 +32,11 @@ Les méthodes d’intégrations étudiées dans ce projet :
 #### Voici un démo sur la réalisation de l’interface graphique :
 
 ![](gif1.gif)
+
+### Utilité:
+L’intégration est un des problémes les plus importants que l’on rencontre en analyse. En effet, on rencontre souvent des intégrales dont le calcul par des méthodes analytiques est trés compliqué ou même impossible, car il n’existe pas d’expression analytique d’une primitive de la fonctionà intégrer.
+Dans ces cas, on peut appliquer des méthodes numériques qui permettent de calculer rapidement une valeur approchée I de l’intégrale à calculer. Cette petite application facilite cette tâche de calcul et même de comparaison entre les méthodes d'integrations prise en considération (méthode des rectangles à gauche, méthode des trapèzes, méthode des points milieux et la méthode de simpson)
+
 
 ### Outil de développement:
 Le langage Python 3 a été utilisé pour coder les différentes méthodes. Les bibliothèques utilisées sont principalement numpy et matplotlib et certaines parties du code nécessitent pylab.
@@ -67,6 +73,8 @@ L'interface du projet contient trois cadres (frames) pour la composition de la f
 * Méthode plot : pour l'affichage d'une seule graphe.En effet,le Combobox inséré dans l'interface vous permet de choisir la méthode d'intégration désiré , il suffit de choisir la méthode , le graphe va être affiché , ainsi la valeur approchée de l'intégral et l'erreur.
 * Méthode plotall: C'est le même principe de la méthode plot sauf celle-ci permet l'affichage des quatre ghraphes de chaque méthode simultanément ainsi leurs valeurs approchées  et leurs erreurs.
 
+## Execution :
+Le fichier peut également être exécuté sous forme de script :
 
 
 
